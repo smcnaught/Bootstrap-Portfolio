@@ -1,0 +1,268 @@
+/*Body of the page.*/
+body html{
+	/*background pattern from subtle patterns.*/
+	width: 100%;
+}
+html{
+	position: relative;
+	min-height: 100%;
+}
+body{
+	margin: 0 0 100px; /*bottom=footer height */
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+/* Content in the body of the page.
+#maincontent{
+	padding:50px 50px 140px 50px;
+}
+
+/*All content including the header.
+#mainsection{
+	width: 100%;
+	border: thick;
+	border-color: #cccccc;
+}
+*/
+/*The entire page.
+#container{
+	min-height: calc(100vh - 10px);
+	width: 100%;
+	max-width: 960px;
+}
+*/
+
+/* Header section.*/
+.header{
+	width: 100%;
+	padding-bottom: 45px;
+	padding-top: 25px;
+	border-bottom: solid;
+	border-color: lightgray;
+	
+}
+/*My profile picture.*/
+#profilePic{
+	height: 200px;
+	width: 200px;
+	padding: 15px 21px;
+}
+
+/*Stephanie McNaught/my name title in the header*/
+#myName{
+	width: 25%;
+	margin-left: 50px;
+	padding: 10px 9px;
+	background-color: #4aa;
+	color: white;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	float: left;
+	font-size: 25px;
+	
+}
+
+/*Section in the header that contains the "About", "Portfolio", and "Contact" links.*/
+.nav-link {
+	color: gray;
+	text-decoration: none;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding: 13px;
+}
+
+/* Contains the nav-link's.
+nav{
+	float: left;
+	padding: 15px 0px 15px 0px;
+}
+*/
+/*"Contact" title in the left column.*/
+#contactinfo{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #4aa;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 20px 0px 20px;
+    padding-bottom: 16px;
+    border-bottom: solid;
+    border-color: lightgray;
+}
+
+/* Border for the Contact Information section*/
+.leftcolumn{
+	float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+/*Border for the "About Me" column.*/
+#aboutmecolumn{
+	margin: 40px -200px 100px 50px;
+	border-style: solid;
+    border-width: 1px;
+    border-height: 250px;
+    border-color: lightgray;
+}
+
+/*Name title right above the Name Text Box.*/
+#name{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: gray;
+	padding: 5px 20px 6px 20px;
+	line-height: 1.8;
+}
+
+/*Name Text Box*/
+#textBoxName{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: darkgray;
+	margin-left: 18px;
+	padding: 6px;
+	width: 91%;
+	font-style: italic;
+
+}
+
+/*Email title right above the Email Text Box.*/
+#email{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: gray;
+	margin-left: 20px;
+	padding-top: 16px;
+	padding-bottom: 10px;
+}
+
+/*Email text box*/
+#textBoxEmail{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: darkgray;
+	margin-left: 18px;
+	width: 91%;
+	font-style: italic;
+	padding: 6px;
+}
+
+/*Message title right above the Message Text Box.*/
+#message{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: gray;
+	margin-left: 20px;
+	padding-bottom: 11px;
+	padding-top: 17px;
+}
+
+/*Message Text Box.*/
+#textBoxMessage{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: darkgray;
+	margin-left: 18px;
+	width: 93%;
+}
+
+/*Submit button.*/
+#button{
+	margin-left: 20px;
+	color:white;
+	background-color: #4aa;
+	padding: 15px 32px;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+/*Border for the Connect With Me Section on ALL PAGES.*/
+
+#rightcolumn{
+	position: relative;
+	width: 39%;
+	border-style: solid;
+    border-width: 1px;
+    float: right;
+    border-color: lightgray;
+    margin-top: 15px;
+}
+
+/*Title for the Connect With Me section on ALL PAGES.*/
+#connectwithme{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #4aa;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: solid;
+    border-color: lightgray;
+    margin: 0px 20px 0px 20px;
+    padding: 10px;
+}
+
+/*Picture for Linkedin*/
+#linkedin{
+	width: 15%;
+    height: 15%;
+    border: 0;
+    margin-top: 10px;
+    margin-left: 36px;
+}
+
+/*Picture for Github*/
+#github{
+	width: 15%;
+    height: 15%;
+    margin-top: 10px;
+}
+
+/*Picture for Stack Overflow*/
+#stackoverflow{
+	width: 15%;
+    height: 15%;
+    margin-top: 10px;
+}
+
+/* This is the title "About Me".*/
+#aboutme{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #4aa;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: solid;
+	border-color: lightgray;
+}
+
+/*this is the text in the "About Me" section. */
+#aboutmecontent{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: darkgray;
+	margin: 30px 55px 0px 55px;
+	width: 92%;
+}
+
+#portfoliopic{
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    width:43% auto;
+    height:100% auto;
+}
+/* Footer on all three site pages. */
+footer{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #666666;
+    font-size: 13px;
+    padding-top: 30px;
+    font-family: Arial, "Helvectica Neue", Helvectica, sans-serif;
+    text-align: center;
+    border-top: solid;
+    border-width: 7px;
+    border-color: #4aa;
+	
+}
